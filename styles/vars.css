@@ -1,5 +1,6 @@
 :root {
-    --font-family: 'Dancing Script';
+    --font-family-heading: 'Cinzel Decorative', cursive;
+    --font-family-app: 'Ysabeau SC', sans-serif;
     --primary: #f0f0f0;
     --slate-400: #94a3b8;
 }
