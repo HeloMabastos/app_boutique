@@ -1,0 +1,42 @@
+
+main {
+    background-color: #fff;
+    padding: 0 30px;
+}
+
+main .page-title {
+    font-size: 30px;
+    padding: 50px 0;
+    text-align: center;
+}
+
+main .content {
+    display: flex;
+}
+
+main .content section {
+    flex: 1;
+    background: antiquewhite;
+}
+
+main .content aside {
+    background-color: brown;
+    min-width: 250px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table thead tr {
+    border-bottom: 3px solid #ccc;
+}
+
+table thead th {
+    text-align: left;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    color: #666;
+
+}
