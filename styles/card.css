@@ -1,0 +1,25 @@
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    max-width: 1800px;
+    margin: 20px auto;
+  }
+  
+  .card {
+    border: 1px solid #000;
+    max-width: 500px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    padding-bottom: 8px;
+  }
+  
+  .card img {
+    object-fit: cover;
+    aspect-ratio: 1;
+    width: 100%;
+  }
