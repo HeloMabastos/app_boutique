@@ -1,0 +1,88 @@
+.container1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
+}
+
+.form-img img {
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  width: 100%;
+}
+
+.form form {
+  width: 100%;
+  padding: 16px;
+}
+
+.form-header {
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.login-button1 {
+  display: flex;
+  align-items: center;
+}
+
+.login-button1 button {
+  border: none;
+  background-color: #ccc;
+  padding: 0.4rem;
+  border-radius: 5px;
+}
+
+.login-button1 button:hover {
+  background-color: #eee;
+}
+
+.login-button1 button a {
+  text-decoration: none;
+  font-weight: 500;
+  color: white;
+}
+
+.form-header h1::after {
+  content: "";
+  display: block;
+  width: 5rem;
+  height: 0.3rem;
+  background-color: #666;
+  margin: 0 auto;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.input-group {
+  flex: 1;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.1rem;
+}
+
+.input-box input {
+  margin: 0.6rem;
+  padding: 0.8rem 1.2rem;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 1px 1px 6px #0000001c;
+}
+
+.input-box input:hover {
+  background-color: #eeeeee75;
+}
+
+.input-box input:focus-visible {
+  outline: 1px solid #666;
+}
