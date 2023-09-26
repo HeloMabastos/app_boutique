@@ -137,13 +137,16 @@ aside footer{
   background: #ccc;
   font-size: 18px;
 }
-aside .box button{
+aside .box a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: 0;
   padding: 20px 0;
   color: white;
   background-color: green;
-  display: block;
   width: 100%;
   text-transform: uppercase;
   letter-spacing: 1px;
+  text-decoration: none;
 }
