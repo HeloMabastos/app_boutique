@@ -1,98 +1,52 @@
-
 /* class utilitaria para buttons */
 .button {
-    border: 0;
-    background-color: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
+  display: block;
+  text-decoration: none;
+  font-size: 20px;
+  border: 0;
+  background-color: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: #666;
 }
 
-header {
-    height: 80px;
-    padding: 8px 16px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 3px solid black;
-    gap: 20px;
-    margin-bottom: 20px;
+footer {
+  background-color: #666;
+  padding-bottom: 20px;
 }
 
-header .logo {
-    font-size: 42px;
-    font-family: var(--font-family-heading);
+footer .contain {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  color: white;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 20px;
 }
 
-header .campo-texto {
-    flex: 1;
-    max-width: 300px;
+footer .contain ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
 }
 
-header .campo-texto input {
-    height: 30px;
-    width: 100%;
-    border: 0;
-    border-radius: 4px;
-    outline: none;
-    padding: 8px 8px;
+footer .contain h3 {
+  margin-bottom: 16px;
+  font-weight: 600;
 }
 
-header .header-acoes {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 8px
+footer .contain .redes-socias {
+  margin-right: 10px;
+  display: flex;
 }
 
-header button.acao {    
-    color: var(--slate-400);
+footer .contain ul > p {
+  margin-bottom: 40px;
 }
 
-header button.login {
-    text-transform: uppercase;
-    color: var(--slate-400);
-    font-size: 18px;
-    font-weight: bold;
-
-}
-
-.btn-destaque{
-    color: #666;
-    display: flex;
-}
-
-footer{
-    background-color: #666;
-}
-
-footer .contain{
-    display: flex;
-    color: white;
-}
-
-footer .contain ul{
-    width: 25%;
-}
-
-footer .contain h3{
-    margin-bottom: 16px;
-    font-weight: 600;
-}
-
-footer .contain .redes-socias img{
-    margin-right: 10px
-}
-
-footer .contain ul > p{
-    margin-bottom: 40px;
-}
-
-footer .contain li{
-    margin: 10px 0;
-}
-
-footer .contain a{
-    color: white;
+footer .contain a {
+  color: white;
 }
