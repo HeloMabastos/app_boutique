@@ -41,3 +41,10 @@ body{
 .cadastro{
     color: white;
 }
+
+.img{
+   width: 800; 
+   height: 800;
+   max-width: 100;
+   height: auto;
+}
