@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     margin: 0;
     padding: 0;
@@ -58,4 +59,99 @@ header button.acao {
 .btn-destaque{
     color: #666;
     display: flex;
+=======
+.wrapper {
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;
+}
+
+img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.detalhe {
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.detalhe h1 {
+  font-size: 42px;
+  font-family: var(--font-family-heading);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.detalhe .button-wrapper:last-child {
+  margin-top: 10px;
+}
+
+.detalhe div {
+  display: flex;
+  gap: 10px;
+}
+.detalhe div .label {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.detalhe div .button {
+  border: 0;
+  background-color: black;
+  width: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 9999px;
+  cursor: pointer;
+}
+
+.detalhe .checkout {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  max-width: 800px;
+}
+
+.detalhe .checkout .preco {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.detalhe .checkout .button {
+  width: 200px;
+  height: 50px;
+}
+
+.sizes-colors-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.detalhe .card-info {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: calc(100% - 90px);
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border: 0;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 9999px;
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+>>>>>>> 51e7985f06f0a26e0ff2b0dfe0c8ea32a5ed91fb
 }
